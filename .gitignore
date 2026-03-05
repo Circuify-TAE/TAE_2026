@@ -1,0 +1,86 @@
+# ======================
+# Xilinx Vivado
+# ======================
+
+# Project files (regenerable from .tcl scripts)
+*.xpr
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+
+# Generated sources
+*.gen/
+*.srcs/**/ip/
+
+# Synthesis & Implementation
+*.dcp
+*.bit
+*.ltx
+*.bin
+*.mcs
+*.prm
+
+# Reports & Logs
+*.log
+*.jou
+*.rpt
+*.rpx
+*.str
+*.xdc.bak
+vivado_*.backup.*
+
+# Simulation
+*.wdb
+*.wcfg
+xsim.dir/
+*.pb
+*.vcd
+*.fsdb
+*.vpd
+*.saif
+
+# IP & Block Design generated files
+*.xml
+!*.xdc
+*.hwdef
+*.sysdef
+bd/*/hdl/
+bd/*/ip/
+bd/*/sim/
+bd/*/synth/
+
+# HLS
+*.aps
+*.apc
+solution*/
+autopilot.log
+
+# ======================
+# Build & temp files
+# ======================
+.Xil/
+*.backup.log
+*.backup.jou
+webtalk*.log
+webtalk*.jou
+usage_statistics_webtalk.*
+NA/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.code-workspace
