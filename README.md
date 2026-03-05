@@ -1,4 +1,4 @@
-# Git Cheat Sheet — Nivel Básico a Medio
+# Git Cheat Sheet
 
 ## 1. Configuración inicial
 
